@@ -6,32 +6,32 @@ public class Hero {
     // Default constructor
     public Hero() {}
 
-    // Constructor with name, hp, and atk parameters
+    // Constructor dengan name, hp, and atk parameters
     public Hero(String name, double hp, double atk) {
         this.name = name;
         this.hp = hp;
         this.atk = atk;
     }
 
-    // Getters and Setters
+    // Getters dan Setters
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public double getHp() {
         return hp;
     }
 
-    public void setHp(double hp) {
-        this.hp = hp;
-    }
-
     public double getAtk() {
         return atk;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHp(double hp) {
+        this.hp = hp;
     }
 
     public void setAtk(double atk) {
